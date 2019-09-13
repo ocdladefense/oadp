@@ -7,6 +7,7 @@ function my_theme_enqueue_styles() {
     array( 'style' ),
     wp_get_theme()->get('Version'));
 
+    
     wp_enqueue_style('custom-styling', get_template_directory_uri() . '/style-overrides.css' );
     wp_enqueue_style( 'custom-styling',
     get_stylesheet_directory_uri() . '/style-overrides.css',
