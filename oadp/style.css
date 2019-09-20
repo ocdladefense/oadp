@@ -13,20 +13,17 @@
 */
 
 /*Global Header Styles*/
-
-.custom-logo-link img{
-    height:60px;
-    padding:0px;
-}
-.custom-logo{
-    margin-right: 0px;
-}
 .default-logo-image{
     display:none;
 }
 /*Header Styles*/
 
 /*Menu Styles*/
+
+/*Page Styles*/
+.default-icon-image{
+    display:none;
+}
 
 /*Post Styles*/
 
