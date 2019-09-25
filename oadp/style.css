@@ -28,3 +28,6 @@
 /*Post Styles*/
 
 /*Footer Styles*/
+.footer-default-widget-left{
+    display: none;
+}
