@@ -1,4 +1,0 @@
-require:
-  - wp-cli/browse-command.php
-@clickpdx.oadp:
-  ssh: vagrant:clickpdx.oadp:/var/www/html
