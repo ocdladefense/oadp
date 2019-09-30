@@ -13,11 +13,5 @@
             "type":"composer",
             "url":"https://wpackagist.org"
         }
-    ],
-    "require": {
-        "clickpdx/wireframe": "dev-master",
-        "wpackagist-plugin/custom-sidebars":"dev-trunk",
-        "wpackagist-plugin/my-social-widget":"dev-trunk",
-        "wpackagist-plugin/fg-drupal-to-wp":"dev-trunk"
-    }
+    ]
 }
