@@ -1,5 +1,5 @@
 {
-    "name": "clickpdx/oadp",
+    "name": "clickpdx/oadp-wordpress-theme",
     "description": "A WordPress child theme that uses Wireframe as a parent",
     "type": "wordpress-theme",
     "authors": [
