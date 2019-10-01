@@ -1,13 +1,16 @@
 {
-    "name": "clickpdx/oadp-wordpress-theme",
-    "description": "Theme for OADP",
-    "type": "project",
+    "name": "clickpdx/oadp",
+    "description": "A WordPress child theme that uses Wireframe as a parent",
+    "type": "wordpress-theme",
     "authors": [
         {
             "name": "jack",
             "email": "brainard@my.lanecc.edu"
         }
     ],
+    "require": {
+        "composer/install": "~1.0"
+    },
     "repositories":[
         {
             "type":"composer",
