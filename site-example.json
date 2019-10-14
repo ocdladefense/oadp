@@ -1,0 +1,87 @@
+{
+	"background-color":"rgba(255,255,255,1.0)",
+	"color":"rgba(0,0,0,0.9)",
+	"banner-image":"https:\/\/www.sites.com\/my-special-image",
+	"banner-logo":"",
+	"show-homepage-sections":true,
+	"elements":{
+		"global-header":{
+			"selector":".global-header",
+			"css":{
+				"background-color":"rgba(255,255,255,0.0)",
+				"border-bottom":"1px solid transparent",
+				"color":"rgba(0,0,0,0.8)"
+			},
+			"transition":true
+		},
+		"site-content":{
+			"css":{
+				"background-color":"#000",
+				"color":"#fff"
+			}
+		}
+	},
+	"sections":[
+		{
+			"id":"section-1",
+			"title":"Costs",
+			"content":"There is no dispute: the cost of the death penalty in Oregon far exceeds the cost of life without parole. Just as importantly, if the death penalty was replaced by life without parole the money currently spent on the death penalty could instead be spent on solving cold cases and funding victim’s services.",
+			"css":{
+				"background-color":"red"
+			},
+			"reference":"https://www.oadp.org/facts/costs"
+		},
+		{
+			"id":"section-2",
+			"title":"Innocence",
+			"content":"Since the reinstatement of the death penalty in the United States in 1976, 138 innocent men and women have been released from death row, including some who came within minutes of execution. In Missouri, Texas and Virginia investigations have been opened to determine if those states executed innocent men. To execute an innocent person is morally reprehensible; this is a risk we cannot take.",
+			"css":{
+				"background-color":"blue"
+			}
+		},
+		{
+			"id":"section-3",
+			"title":"Fairness",
+			"content":"Race and place determine who lives and who dies. Those who kill whites are more likely to be sentenced to die than those who kill African-Americans. In Oregon, prosecutors from some counties are more likely to pursue the death penalty than others are.",
+			"css":{
+				"background-color":"green"
+			}
+		},
+		{
+			"id":"section-3",
+			"title":"No civilian should have <em>killing</em> as part of their job description.",
+			"content":"Corrections personnel involved in executions, like our military, frequently suffer PTSD from having to kill. Perhaps there is a reason to have a defensive military, but prisoners pose no threat to the well-being of our citizens. There is no reason to place the mental health of our corrections workers at risk simply to pursue vengeance.",
+			"css":{
+				"background-color":"green"
+			}
+		},
+		{
+			"id":"section-3",
+			"title":"Capital punishment does not deter crime",
+			"content":"Scientific studies have consistently failed to demonstrate that executions deter people from committing crime. Around our country, states without the death penalty have a lower murder rate than neighboring states with the death penalty.",
+			"css":{
+				"background-color":"green"
+			}
+		}	
+	],
+	"site-info":{
+		"org-name":"OADP",
+		"address":"1234 Super duper Lane, Eugene, OR  97402",
+		"phone":"541-687-1234",
+		"email":"info@ocdla.org",
+		"copyright":"Copyright 2019, OCDLA",
+		"website":"ocdla.org"
+	},
+	"social":{
+		"facebook":"",
+		"twitter":"",
+		"instagram":"",
+		"tumblr":"",
+		"youtube":"",
+		"zoom":"",
+		"vimeo":""
+	},
+	"comments":[
+		{"Note":"Represent a theme instance as JSON."}
+	]
+}
