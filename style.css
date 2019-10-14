@@ -12,53 +12,94 @@
  Text Domain:  wireframechild
 */
 
-/*Global Header Styles*/
-.default-logo-image{
-    display:none;
-}
-/*Header Styles*/
-
-/*Menu Styles*/
-
-/*Page Styles*/
-.default-icon-image{
-    display:none;
-}
-
-/*Post Styles*/
-
-/*Footer Styles*/
-.footer-default-widget-left{
-    display: none;
-}
-
-
 #global-header {
-	transition: background-color 0.4s ease-out;
-	transition: border-bottom-color 0.8s ease-out;
-}
-
-.global-header {
-	background-color: transparent;
-	border-bottom-width: 1px;
-	border-bottom-color: transparent;
-	border-bottom-style: solid;
-}
-
-.scrollToDark {
-	background-color:rgba(255,255,255,0.9);
-	border-bottom-color: rgba(0,0,0,0.3);
-}
-
-
-
-/*
-#global-header.scrollInit {
-	background-color: #ccaa39;
-}
-
-#global-header.scrollInit .nav {
-	background-color:#53638c;
+	border-bottom:1px solid rgba(150,150,150,0.2);
+	background-color:rgba(230,230,230,0.7);
 }	
 
-*/
+#sidebar-left {
+	width:10%;
+}
+
+
+
+.menu li {
+	cursor:pointer;
+}
+
+
+
+.sidebar .menu li {
+	background-color: inherit;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 2.4em;
+	border-bottom: 1px solid rgba(225,225,225,0.2);
+	color:rgba(0,0,0,0.9);
+}
+
+
+
+.sidebar .menu li:hover .sub-menu {
+
+}
+
+
+
+.sidebar .menu > li:hover {
+	z-index:101;
+	border-bottom:1px solid rgba(100,100,100,0.2);	
+}
+
+#sidebar-left .sub-menu li:hover {
+	background-color:rgba(100,100,100,0.2);	
+}
+
+.sub-menu {
+	width:300px;
+	background-color: rgba(255,255,255,0.9);
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #eee;
+	z-index:10;
+	left:85% !important;
+	top:-3px;
+}
+
+ul.sub-menu {
+	padding-left:0px !important;
+}
+
+#sidebar-right {
+	line-height: 2.0em;
+	color: #666;
+}
+
+@media screen and(min-width: 1200px) {
+	#primary {
+		padding-left:4%;
+		padding-right:4%;
+	}
+}
+
+.sub-menu ul {
+	display:none;
+}
+
+#global-header .menu li {
+	transition: 
+}
+#global-header .menu li:hover {
+	border-bottom:1px solid rgba(100,100,100,0.3);
+	/* border-right:1px solid rgba(100,100,100,0.3);
+	border-left:1px solid rgba(100,100,100,0.1);
+	border-top:1px solid rgba(100,100,100,0.1);
+	*/
+}
+
+
+
+.sub-menu li:first-child {
+	padding-left: 8px;
+	margin-left:-8px;
+}
